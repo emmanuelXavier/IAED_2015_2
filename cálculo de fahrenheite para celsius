@@ -1,0 +1,10 @@
+Program calc_fah ;
+var C, F: REAL;
+Begin
+
+	write('Informe a temperatura em Fahrenheit');
+	read(F);
+	C := (F - 32) * (5/9);
+	write('Temperatura em Celsius: ', C);
+  
+End.
