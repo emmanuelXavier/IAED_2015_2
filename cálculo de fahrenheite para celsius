@@ -6,5 +6,5 @@ Begin
 	read(F);
 	C := (F - 32) * (5/9);
 	write('Temperatura em Celsius é: ', C);
-  
+  //Emmanuel Xavier
 End.
